@@ -1,0 +1,24 @@
+
+########################################################################
+#      Date:           Sun 06 Nov 2022 10:38:42 AM PST
+#    Job ID:           2028444.v-qsvr-1.aidevcloud
+#      User:           u175310
+# Resources:           neednodes=1:gpu:ppn=2,nodes=1:gpu:ppn=2,walltime=06:00:00
+########################################################################
+
+
+start: 22/11/06 10:38:43.818
+
+./matrix_mul_dpc
+Device: Intel(R) UHD Graphics [0x9a60]
+Problem size: c(150,600) = a(150,300) * b(300,600)
+Result of matrix multiplication using DPC++: Success - The results are correct!
+
+end: 22/11/06 10:38:45.290
+
+
+########################################################################
+# End of output for job 2028444.v-qsvr-1.aidevcloud
+# Date: Sun 06 Nov 2022 10:38:45 AM PST
+########################################################################
+
